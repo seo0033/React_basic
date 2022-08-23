@@ -6,6 +6,7 @@ const Test = ({ list, age, name }) => {
 
     return (
         <div>
+            <button onClick={onClick}>^^*</button>
             <h2>
                 happy {list} {age}살 {name}'s list
                 <button onClick={
@@ -16,7 +17,7 @@ const Test = ({ list, age, name }) => {
 
                 {/* btn.addEventListener('click',()=>{ }) : JS에서 위와같음  */}
             </h2>
-            <Some />
+            <Some list={list} />
             <ul>
                 <li>Lorem ipsum dolor sit amet.</li>
                 <li>Lorem ipsum dolor sit amet.</li>

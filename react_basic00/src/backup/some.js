@@ -1,4 +1,4 @@
-const Some = ({list}) => {
+const Some = ({ list }) => {
     // console.log(props.name)
     return (
         <>

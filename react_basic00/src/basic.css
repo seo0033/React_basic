@@ -5,13 +5,23 @@
 }
 
 .TopBanner {
-    padding: 10px;
+    padding: 0;
     background: #ddd;
     overflow: hidden;
-    height: 100%;
+    height: 100px;
     transition: 0.5s;
 }
 
 .TopBanner.on {
     height: 0;
+}
+
+.btn {
+    font-size: 30px;
+    color: #f00;
+    display: inline-block;
+}
+
+.btn.on {
+    transform: rotate(0.5turn);
 }
