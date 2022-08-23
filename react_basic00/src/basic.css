@@ -1,7 +1,17 @@
-section {
-    font-size: 50px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.on {
-    color: #f00;
+.TopBanner {
+    padding: 10px;
+    background: #ddd;
+    overflow: hidden;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.TopBanner.on {
+    height: 0;
 }
